@@ -4,6 +4,11 @@ body, html {
   font-family: Arial, sans-serif;
 }
 
+body {
+  background: linear-gradient(to right, #000000, #dd1818); /* Black to red gradient */
+  color: white; /* Adjust text color for better readability */
+}
+
 .header {
   background-color: #333;
   color: white;
@@ -11,31 +16,60 @@ body, html {
   padding: 1em;
 }
 
-.movie-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 16px;
-  padding: 1em;
-}
-
 .movie-card {
   width: 200px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3); 
   transition: 0.3s;
-  border-radius: 5px;
+  border-radius: 10px; 
   overflow: hidden;
+  background-color: #1a1a1a; 
+  color: #fff; 
+}
+
+.movie-card:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 6px 12px rgba(0,0,0,0.5); 
 }
 
 .movie-card img {
   width: 100%;
   height: auto;
+  border-bottom: 5px solid #dd1818; 
 }
 
 .movie-card .container {
   padding: 16px;
   text-align: center;
 }
+
+.movie-card h4 {
+  margin-top: 0;
+  font-size: 18px; 
+}
+
+.movie-card a {
+  display: inline-block;
+  margin-top: 8px;
+  background-color: #dd1818; 
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none; 
+  font-weight: bold;
+}
+
+.movie-card a:hover {
+  background-color: #cc1616; 
+}
+
+.movie-card .movie-description {
+  color: #ccc; 
+  font-size: 0.9rem; 
+  margin: 10px 0; 
+  text-align: justify; 
+}
+
+
 
 @media (max-width: 600px) {
   .movie-container {
