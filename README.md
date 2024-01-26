@@ -27,20 +27,16 @@ Mainly added to the style of my application. The basic functionality was simple 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
-
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
+
 [ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+
+![Project1MovieReviews](https://github.com/mattyanthony/Movie-Reviews/assets/108240399/d9b2980b-b4cf-4566-b875-bd4999315706)
 
 ## Notes
 
-Describe any challenges encountered while building the app.
-
+My main challenges were with styling. I found it very hard to create a professional looking website and fought hard with blocky cheap looking css but I am pleased with how it turned out. 
 ## License
 
     Copyright [yyyy] [name of copyright owner]
