@@ -20,7 +20,9 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-* [ ] List anything else that you added to improve the site's functionality!
+* [x] List anything else that you added to improve the site's functionality!
+
+Mainly added to the style of my application. The basic functionality was simple enough but it looked very boring. I spent the most amount of time tweaking features/css to make it all look appealing and professional.
 
 ## Video Walkthrough
 
